@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 HTML </title>
+</head>
+<style>
+    body,ul{
+        background-color: rgb(233, 204, 111);
+        text-align: center;
+    }
+    table{
+        table-layout: fixed;
+        background-color:  rgb(150, 103, 103);
+        -o-table-baseline: inherit;
+    }
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+</style>
+<body>
+    <h1>Charicha Institute</h1>
+    <div class="navbar">
+            <img src="image.png" alt="test.png">
+            <ul>
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Projects</li>
+            </ul>
+    </div>
+    <div class="main">
+        <table border="2">
+            <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                    </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                            <td> ReactJS</td>
+                            <td>UI Framework</td>
+                            <td> <a href="https://reactjs.com">https://reactjs.com</a></td>
+                    </tr>
+            </tbody>
+        </table>
+
+        <form action="welcome.php">
+            <label for="username">Username</label>
+            <input type="text" name="username" id = "Username">
+           
+            <br>
+           
+            <label for="password">password</label>
+            <input type="password" name="Password" id="Password">
+           
+            <br>
+            <input type="submit" value="LOGIN">
+        </form>
+    </div>
+    <div class="footer">
+            <p>Charicha Softwares, where your digital journey beginns.</p>
+            <ul class="site-map">
+           
+                <li>Home</li>
+                <li>Projects</li>
+                <li>About</li>
+                <li>Help</li>
+                <li>Contact</li>
+
+            </ul>
+    </div>
+    
+    <p>Copyright &copy: 2022 All Rights  Reserved</p>
+</body>
+</html>
